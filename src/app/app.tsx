@@ -1,14 +1,14 @@
 // eslint-disable-next-line @typescript-eslint/no-unused-vars
 import styles from './app.module.scss';
-
-import NxWelcome from './nx-welcome';
+import { Route, Routes } from 'react-router-dom';
+import Page from './page/page';
 
 export function App() {
   return (
-    <>
-      <NxWelcome title="recipe-calculator" />
-
-      <div />
+    <>   
+     <Routes>
+        <Route path="" element={<Page />}></Route>       
+      </Routes>
     </>
   );
 }
