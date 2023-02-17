@@ -1,12 +1,14 @@
 import styles from './nav.module.scss';
-
+import { NavList } from '@recipe-calculator/shared/ui'
+import { UserSection } from '@recipe-calculator/shared/ui'
 /* eslint-disable-next-line */
 export interface NavProps {}
 
 export function Nav(props: NavProps) {
   return (
     <div className={styles['nav']}>
-      <h1>Welcome to Nav!</h1>
+      <NavList></NavList>
+      <UserSection></UserSection>
     </div>
   );
 }
