@@ -1,13 +1,13 @@
 import styles from './navlist.module.scss';
-
+import { NavListItem } from '@recipe-calculator/shared/ui'
 /* eslint-disable-next-line */
-export interface NavlistProps {}
+export interface NavListProps {}
 
-export function NavList(props: NavlistProps) {
+export function NavList(props: NavListProps) {
   return (
-    <div className={styles['container']}>
-     
-    </div>
+    <ul className={styles['navList']}>
+      <NavListItem name='Home' url='/'></NavListItem>
+    </ul>
   );
 }
 

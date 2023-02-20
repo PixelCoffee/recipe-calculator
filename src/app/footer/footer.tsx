@@ -5,7 +5,7 @@ export interface FooterProps {}
 
 export function Footer(props: FooterProps) {
   return (
-    <div className={styles['container']}>
+    <div className={styles['footer']}>
       <h4>Footer</h4>
       <p>Credit to me, lol</p>
     </div>

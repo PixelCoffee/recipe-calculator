@@ -1,0 +1,6 @@
+{
+    "files.watcherExclude": {
+        "**/.git/subtree-cache/**": false,
+        "**/.hg/store/**": false
+    }
+}
