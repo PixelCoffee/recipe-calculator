@@ -1,5 +1,8 @@
 .nav{
-    display: block;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    
     overflow: hidden;
     min-height: 30px;
     padding: 0 30px;

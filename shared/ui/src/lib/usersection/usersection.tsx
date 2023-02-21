@@ -6,7 +6,7 @@ export interface UsersectionProps {}
 
 export function UserSection(props: UsersectionProps) {
   return (
-    <div className={styles['container']}>
+    <div className={styles['userSection']}>
       <NavLogin></NavLogin>
       <NavSignup></NavSignup>
     </div>
