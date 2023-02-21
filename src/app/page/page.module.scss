@@ -4,7 +4,12 @@
 }
 
 .page--home{
-    background-image: url("../../assets/site-bg-colours.jpg");
+    background:
+        linear-gradient(
+            rgba(255,255,255, 0.2), 
+            rgba(255,255,255, 0.2)
+        ),
+        url("../../assets/site-bg-colours.jpg");
     background-size: cover;
 }
 

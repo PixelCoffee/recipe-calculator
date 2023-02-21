@@ -6,7 +6,7 @@ export interface PagecontentProps {}
 export function PageContent(props: PagecontentProps) {
   return (
     <div className={styles['pageContent']}>
-      <h1>Welcome to Pagecontent!</h1>
+      <h1>Main Title</h1>
     </div>
   );
 }

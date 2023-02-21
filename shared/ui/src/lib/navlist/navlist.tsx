@@ -7,6 +7,8 @@ export function NavList(props: NavListProps) {
   return (
     <ul className={styles['navList']}>
       <NavListItem name='Home' url='/'></NavListItem>
+      <NavListItem name='Page1' url='/'></NavListItem>
+      <NavListItem name='Page2' url='/'></NavListItem>  
     </ul>
   );
 }
