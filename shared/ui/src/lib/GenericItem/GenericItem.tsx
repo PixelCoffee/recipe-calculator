@@ -2,7 +2,7 @@ import styles from './GenericItem.module.scss';
 
 /* eslint-disable-next-line */
 
-interface Recipe {  
+export interface Recipe {  
     name : string,
     localised_name : [
       string
