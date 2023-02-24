@@ -4,15 +4,16 @@ import styles from './GenericItem.module.scss';
 export interface GenericItemProps {
   item: {
     name: string,
-    text: string
+    ingredients: []    
   }  
 }
 
 
 export function GenericItem(props: GenericItemProps) {
   return (
-    <div className={styles['container']}>
-     <h1>{props.item.name}</h1>
+    <div className={styles['genericItem']}>
+     <p className={styles['genericItem__title']}>{props.item.name}</p>
+     <p>{props.item.ingredients.length}</p>
     </div>
   );
 }

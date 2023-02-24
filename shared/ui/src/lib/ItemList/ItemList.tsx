@@ -1,4 +1,5 @@
 import styles from './ItemList.module.scss';
+import {GenericItem, GenericItemProps} from '@recipe-calculator/shared/ui';
 
 /* eslint-disable-next-line */
 export interface ItemListProps {
@@ -7,15 +8,15 @@ export interface ItemListProps {
 }
 
 export function ItemList(props: ItemListProps) {
+  
+
   return (
-    <div className={styles['container']}>
-      {
-        props.recipes.map( recipe => {
-          return(
-          <p>{recipe.name}</p>
-          )
-        })
-      }
+    <div className={styles['itemList']}>
+       {
+          Object.values(props.recipes).map((value:any, index) => {
+            return( <GenericItem item={value} key={index}></GenericItem>)
+          }) 
+        }
     </div>
   );
 }

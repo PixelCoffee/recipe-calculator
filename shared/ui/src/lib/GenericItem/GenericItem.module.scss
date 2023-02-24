@@ -1,7 +1,13 @@
-/*
- * Replace this with your own classes
- *
- * e.g.
- * .container {
- * }
-*/
+.genericItem{   
+    min-width: 20%;
+    padding: 15px;
+    border: 1px;
+    margin-right: 20px;
+    margin-bottom: 10px;
+}
+
+.genericItem__title{
+    font-size: 18px;
+    font-weight: 700;
+    margin: 0;
+}
